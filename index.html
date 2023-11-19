@@ -1,178 +1,44 @@
-<!DOCTYPE html>
-<html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="description" content="None">
-        
-        
-        <link rel="shortcut icon" href="img/favicon.ico">
-        <title>Leo's Notes Online Library</title>
-        <link href="css/bootstrap.min.css" rel="stylesheet">
-        <link href="css/font-awesome.min.css" rel="stylesheet">
-        <link href="css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
-        <script>hljs.highlightAll();</script> 
-    </head>
+<!doctype html>
+<html lang="zh-CN" data-theme="light">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="generator" content="VuePress 2.0.0-rc.0" />
+    <meta name="theme" content="VuePress Theme Hope 2.0.0-rc.0" />
+    <style>
+      html {
+        background: var(--bg-color, #fff);
+      }
 
-    <body class="homepage">
-        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
-            <div class="container">
-                <a class="navbar-brand" href=".">Leo's Notes Online Library</a>
-                <!-- Expander button -->
-                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+      html[data-theme="dark"] {
+        background: var(--bg-color, #1d1e1f);
+      }
 
-                <!-- Expanded navigation -->
-                <div id="navbar-collapse" class="navbar-collapse collapse">
-                        <!-- Main navigation -->
-                        <ul class="nav navbar-nav">
-                            <li class="navitem active">
-                                <a href="." class="nav-link">Home</a>
-                            </li>
-                            <li class="navitem">
-                                <a href="about.md" class="nav-link">About</a>
-                            </li>
-                        </ul>
+      body {
+        background: var(--bg-color);
+      }
+    </style>
+    <script>
+      const userMode = localStorage.getItem("vuepress-theme-hope-scheme");
+      const systemDarkMode =
+        window.matchMedia &&
+        window.matchMedia("(prefers-color-scheme: dark)").matches;
 
-                    <ul class="nav navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
-                                <i class="fa fa-search"></i> Search
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
+      if (userMode === "dark" || (userMode !== "light" && systemDarkMode)) {
+        document.documentElement.setAttribute("data-theme", "dark");
+      }
+    </script>
+    <meta property="og:url" content="https://vuepress-theme-hope-docs-demo.netlify.app/"><meta property="og:site_name" content="Leo's Cyber Mind Palace"><meta property="og:title" content="Home"><meta property="og:type" content="website"><meta property="og:locale" content="zh-CN"><meta property="article:author" content="Leo"><script type="application/ld+json">{"@context":"https://schema.org","@type":"WebPage","name":"Home"}</script><title>Home | Leo's Cyber Mind Palace</title><meta name="description" content="">
+    <link rel="preload" href="/assets/style-TL80vtHt.css" as="style"><link rel="stylesheet" href="/assets/style-TL80vtHt.css">
+    <link rel="modulepreload" href="/assets/app-qRZy6UKi.js"><link rel="modulepreload" href="/assets/index.html-IJZFwakl.js"><link rel="modulepreload" href="/assets/index.html-YIqUqJy7.js"><link rel="modulepreload" href="/assets/plugin-vue_export-helper-x3n3nnut.js">
+    <link rel="prefetch" href="/assets/slides.html-voYlNNve.js" as="script"><link rel="prefetch" href="/assets/WSL_LAMMPS_GPU.html-jRyPrdfc.js" as="script"><link rel="prefetch" href="/assets/proj.html-BXM6VH5H.js" as="script"><link rel="prefetch" href="/assets/404.html-gK_Fbpfe.js" as="script"><link rel="prefetch" href="/assets/index.html--Sj8bjVX.js" as="script"><link rel="prefetch" href="/assets/index.html-954f-syL.js" as="script"><link rel="prefetch" href="/assets/slides.html-JINganOy.js" as="script"><link rel="prefetch" href="/assets/WSL_LAMMPS_GPU.html-TThKtxdT.js" as="script"><link rel="prefetch" href="/assets/proj.html-ji9cgMYm.js" as="script"><link rel="prefetch" href="/assets/404.html-8m_2HQjj.js" as="script"><link rel="prefetch" href="/assets/index.html-sXRo8stT.js" as="script"><link rel="prefetch" href="/assets/index.html-P4KAbvEp.js" as="script"><link rel="prefetch" href="/assets/photoswipe.esm-mC0Qcr12.js" as="script">
+  </head>
+  <body>
+    <div id="app"><!--[--><!--[--><!--[--><span tabindex="-1"></span><a href="#main-content" class="vp-skip-link sr-only">跳至主要內容</a><!--]--><div class="theme-container no-sidebar"><!--[--><header id="navbar" class="vp-navbar"><div class="vp-navbar-start"><button type="button" class="vp-toggle-sidebar-button" title="Toggle Sidebar"><span class="icon"></span></button><!--[--><!----><!--]--><!--[--><a class="vp-link vp-brand vp-brand" href="/"><img class="vp-nav-logo" src="/seagullCover.jpg" alt="Leo&#39;s Cyber Mind Palace"><!----><span class="vp-site-name hide-in-pad">Leo&#39;s Cyber Mind Palace</span></a><!--]--><!--[--><!----><!--]--></div><div class="vp-navbar-center"><!--[--><!----><!--]--><!--[--><nav class="vp-nav-links"><div class="nav-item hide-in-mobile"><a aria-label="Home" class="vp-link nav-link active nav-link active" href="/"><span class="font-icon icon fa-fw fa-sm fas fa-home" style=""></span>Home<!----></a></div><div class="nav-item hide-in-mobile"><a aria-label="Projects" class="vp-link nav-link nav-link" href="/projects/proj.html"><span class="font-icon icon fa-fw fa-sm fas fa-star" style=""></span>Projects<!----></a></div><div class="nav-item hide-in-mobile"><a aria-label="docs" class="vp-link nav-link nav-link" href="/docs/"><span class="font-icon icon fa-fw fa-sm fas fa-book" style=""></span>docs<!----></a></div></nav><!--]--><!--[--><!----><!--]--></div><div class="vp-navbar-end"><!--[--><!----><!--]--><!--[--><!----><div class="nav-item vp-repo"><a class="vp-repo-link" href="https://github.com/leo-lyy" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><svg xmlns="http://www.w3.org/2000/svg" class="icon github-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="github icon" style="width:1.25rem;height:1.25rem;vertical-align:middle;"><path d="M511.957 21.333C241.024 21.333 21.333 240.981 21.333 512c0 216.832 140.544 400.725 335.574 465.664 24.49 4.395 32.256-10.07 32.256-23.083 0-11.69.256-44.245 0-85.205-136.448 29.61-164.736-64.64-164.736-64.64-22.315-56.704-54.4-71.765-54.4-71.765-44.587-30.464 3.285-29.824 3.285-29.824 49.195 3.413 75.179 50.517 75.179 50.517 43.776 75.008 114.816 53.333 142.762 40.79 4.523-31.66 17.152-53.377 31.19-65.537-108.971-12.458-223.488-54.485-223.488-242.602 0-53.547 19.114-97.323 50.517-131.67-5.035-12.33-21.93-62.293 4.779-129.834 0 0 41.258-13.184 134.912 50.346a469.803 469.803 0 0 1 122.88-16.554c41.642.213 83.626 5.632 122.88 16.554 93.653-63.488 134.784-50.346 134.784-50.346 26.752 67.541 9.898 117.504 4.864 129.834 31.402 34.347 50.474 78.123 50.474 131.67 0 188.586-114.73 230.016-224.042 242.09 17.578 15.232 33.578 44.672 33.578 90.454v135.85c0 13.142 7.936 27.606 32.854 22.87C862.25 912.597 1002.667 728.747 1002.667 512c0-271.019-219.648-490.667-490.71-490.667z"></path></svg></a></div><div class="nav-item hide-in-mobile"><button type="button" id="appearance-switch"><svg xmlns="http://www.w3.org/2000/svg" class="icon auto-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="auto icon" style="display:block;"><path d="M512 992C246.92 992 32 777.08 32 512S246.92 32 512 32s480 214.92 480 480-214.92 480-480 480zm0-840c-198.78 0-360 161.22-360 360 0 198.84 161.22 360 360 360s360-161.16 360-360c0-198.78-161.22-360-360-360zm0 660V212c165.72 0 300 134.34 300 300 0 165.72-134.28 300-300 300z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon dark-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="dark icon" style="display:none;"><path d="M524.8 938.667h-4.267a439.893 439.893 0 0 1-313.173-134.4 446.293 446.293 0 0 1-11.093-597.334A432.213 432.213 0 0 1 366.933 90.027a42.667 42.667 0 0 1 45.227 9.386 42.667 42.667 0 0 1 10.24 42.667 358.4 358.4 0 0 0 82.773 375.893 361.387 361.387 0 0 0 376.747 82.774 42.667 42.667 0 0 1 54.187 55.04 433.493 433.493 0 0 1-99.84 154.88 438.613 438.613 0 0 1-311.467 128z"></path></svg><svg xmlns="http://www.w3.org/2000/svg" class="icon light-icon" viewBox="0 0 1024 1024" fill="currentColor" aria-label="light icon" style="display:none;"><path d="M952 552h-80a40 40 0 0 1 0-80h80a40 40 0 0 1 0 80zM801.88 280.08a41 41 0 0 1-57.96-57.96l57.96-58a41.04 41.04 0 0 1 58 58l-58 57.96zM512 752a240 240 0 1 1 0-480 240 240 0 0 1 0 480zm0-560a40 40 0 0 1-40-40V72a40 40 0 0 1 80 0v80a40 40 0 0 1-40 40zm-289.88 88.08-58-57.96a41.04 41.04 0 0 1 58-58l57.96 58a41 41 0 0 1-57.96 57.96zM192 512a40 40 0 0 1-40 40H72a40 40 0 0 1 0-80h80a40 40 0 0 1 40 40zm30.12 231.92a41 41 0 0 1 57.96 57.96l-57.96 58a41.04 41.04 0 0 1-58-58l58-57.96zM512 832a40 40 0 0 1 40 40v80a40 40 0 0 1-80 0v-80a40 40 0 0 1 40-40zm289.88-88.08 58 57.96a41.04 41.04 0 0 1-58 58l-57.96-58a41 41 0 0 1 57.96-57.96z"></path></svg></button></div><!----><!--]--><!--[--><!----><!--]--><button type="button" class="vp-toggle-navbar-button" aria-label="Toggle Navbar" aria-expanded="false" aria-controls="nav-screen"><span><span class="vp-top"></span><span class="vp-middle"></span><span class="vp-bottom"></span></span></button></div></header><!----><!--]--><!----><div class="toggle-sidebar-wrapper"><span class="arrow start"></span></div><aside id="sidebar" class="vp-sidebar"><!--[--><!----><!--]--><ul class="vp-sidebar-links"></ul><!--[--><!----><!--]--></aside><!--[--><main id="main-content" class="vp-project-home" aria-labelledby="main-title"><!----><header class="vp-hero-info-wrapper"><!--[--><div class="vp-hero-mask light" style="background-image:url(/BG_light.jpg);background-attachment:fixed;"></div><div class="vp-hero-mask dark" style="background-image:url(/BG_dark.jpgs);background-attachment:fixed;"></div><!--]--><div class="vp-hero-info"><!--[--><img class="vp-hero-image" style="" src="/seagullCover.jpg" alt="hero image"><!--]--><div class="vp-hero-infos"><h1 id="main-title">Leo&#39;s Cyber Mind Palace</h1><!----><p class="vp-hero-actions"><a aria-label="Here we go" class="vp-link nav-link vp-hero-action primary nav-link vp-hero-action primary" href="./projects/"><!--[--><span class="font-icon icon fa-fw fa-sm fas fa-lightbulb" style=""></span><!--]-->Here we go<!----></a></p></div></div></header><!--[--><div class="vp-highlight-wrapper" style=""><div class="vp-highlight-bg light" style="background-image:url(https://theme-hope-assets.vuejs.press/bg/3-light.svg);"></div><div class="vp-highlight-bg dark" style="background-image:url(https://theme-hope-assets.vuejs.press/bg/3-dark.svg);"></div><div class="vp-highlight"><!--[--><img class="vp-highlight-image" src="/assets/icon/3752632.png" alt="UNDER a &quot;pre-alpha&quot; CONSTRUCTION"><!----><!--]--><!--[--><div class="vp-highlight-info-wrapper"><div class="vp-highlight-info"><h2 class="vp-highlight-header">UNDER a "pre-alpha" CONSTRUCTION</h2><!----><ul class="vp-highlights"><li class="vp-highlight-item-wrapper"><div class="vp-highlight-item"><h3 class="vp-highlight-title"><!----><span>doing best to update weekly</span></h3><!----></div></li></ul></div></div><!--]--></div></div><!--]--><!----><div class="theme-hope-content"><!-- 这是项目主页的案例。你可以在这里放置你的主体内容。
 
-        <div class="container">
-            <div class="row">
-                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
-    <div class="navbar-header">
-        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
-            <span class="fa fa-angle-down"></span>
-        </button>
-    </div>
+想要使用此布局，你需要在页面 front matter 中设置 `home: true`。
 
-    
-    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
-        <ul class="nav flex-column">
-            
-            <li class="nav-item" data-level="1"><a href="#welcome-to-leos-notes-onlile-library" class="nav-link">Welcome to Leo's Notes Onlile Library</a>
-              <ul class="nav flex-column">
-            <li class="nav-item" data-level="2"><a href="#contents" class="nav-link">Contents</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-level="2"><a href="#to-do-list" class="nav-link">To Do List</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-              </ul>
-            </li>
-        </ul>
-    </div>
-</div></div>
-                    <div class="col-md-9" role="main">
-
-<h1 id="welcome-to-leos-notes-onlile-library">Welcome to Leo's Notes Onlile Library</h1>
-<p>"happy, free, confused and lonely in the best way"</p>
-<h2 id="contents">Contents</h2>
-<ul>
-<li><a href="WSL/WSL_LAMMPS_GPU/">run LAMMPS on Windows with WSL</a></li>
-</ul>
-<h2 id="to-do-list">To Do List</h2>
-<ul>
-<li>[x] LAMMPS installation</li>
-<li>[ ] first LAMMPS simulation</li>
-</ul>
-<hr />
-<p>Hope you will find this site usefull! :)</p></div>
-            </div>
-        </div>
-
-        <footer class="col-md-12">
-            <hr>
-            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
-        </footer>
-        <script src="js/jquery-3.6.0.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script>
-            var base_url = ".",
-                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
-        </script>
-        <script src="js/base.js"></script>
-        <script src="search/main.js"></script>
-
-        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="searchModalLabel">Search</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            </div>
-            <div class="modal-body">
-                <p>From here you can search these documents. Enter your search terms below.</p>
-                <form>
-                    <div class="form-group">
-                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
-                    </div>
-                </form>
-                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-            </div>
-            <div class="modal-body">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th style="width: 20%;">Keys</th>
-                    <th>Action</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td class="help shortcut"><kbd>?</kbd></td>
-                    <td>Open this help</td>
-                  </tr>
-                  <tr>
-                    <td class="next shortcut"><kbd>n</kbd></td>
-                    <td>Next page</td>
-                  </tr>
-                  <tr>
-                    <td class="prev shortcut"><kbd>p</kbd></td>
-                    <td>Previous page</td>
-                  </tr>
-                  <tr>
-                    <td class="search shortcut"><kbd>s</kbd></td>
-                    <td>Search</td>
-                  </tr>
-                </tbody>
-              </table>
-            </div>
-            <div class="modal-footer">
-            </div>
-        </div>
-    </div>
-</div>
-
-    </body>
+配置项的相关说明详见 [项目主页配置](https://theme-hope.vuejs.press/zh/guide/layout/home/)。 --></div><!----></main><!--]--><footer class="vp-footer-wrapper"><div class="vp-footer">使用 <a href="https://theme-hope.vuejs.press/zh/" target="_blank">VuePress Theme Hope</a> 主题 | MIT 协议, 版权所有 © 2019-present Mr.Hope</div><!----></footer></div><!--]--><!----><!--]--></div>
+    <script type="module" src="/assets/app-qRZy6UKi.js" defer></script>
+  </body>
 </html>
-
-<!--
-MkDocs version : 1.5.2
-Build Date UTC : 2023-11-10 02:58:38.253220+00:00
--->

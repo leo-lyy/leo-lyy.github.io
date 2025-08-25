@@ -2,11 +2,11 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
+      value: Yang-Yu Liu
     - name: Date of Birth
-      value: 14th March 1879
+      value: 21st August 2001
     - name: Languages
-      value: English, German
+      value: Chinese, English
 
 - title: Education
   type: time_table
@@ -21,9 +21,9 @@
           contents:
             - Sub-description 1.
             - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+    - title: Bachalor's Degree of Engineering
+      institution: Qingdao University of Science and Technology, Qingdao, China
+      year: 2019 - 2023
       description:
         - Description 1.
         - Description 2.

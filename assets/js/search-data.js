@@ -35,8 +35,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-oct-17-2023-participated-in-the-national-polymer-conference-2023-my-very-first-academic-meeting-an-enriching-and-memorable-experience",
-          title: 'Oct 17, 2023 — Participated in the National Polymer Conference 2023. My very...',
+            },},{id: "news-participated-in-the-national-polymer-conference-2023-my-very-first-academic-meeting-an-enriching-and-memorable-experience",
+          title: 'Participated in the National Polymer Conference 2023. My very first academic meeting—an enriching...',
           description: "",
           section: "News",},{id: "news-joined-the-4th-international-symposium-on-soft-matter-science-and-engineering-absolutely-mind-blowing",
           title: 'Joined the 4th International Symposium on Soft Matter Science and Engineering. Absolutely mind-blowing....',

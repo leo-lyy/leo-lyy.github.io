@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2024-6-18
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+Attended the *5th International Symposium on Soft Matter Science and Engineering*. A true feast for the eyes in polymer physics! 🔬👀  

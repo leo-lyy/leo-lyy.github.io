@@ -1,11 +1,10 @@
 {
   "basics": {
-    "name": "Yang-Yu Liu",
-    "label": "Master's student",
+    "name": "Yang-Yu Liu (刘杨宇)",
     "email": "liuyangyu.leo@foxmail.com",
-    // "phone": "(86) 198-5324-8370",
     "url": "https://leo-lyy.github.io",
     "summary": "",
+    "research interests": "Molecular Dynamics, Polymer, Rheology, Machine Learning",
     "location": {
       "address": "381 Wushan Road, Tianhe District",
       "postalCode": "CA 94115",
@@ -37,6 +36,24 @@
     "courses": ["Polymer Physics, Polymer Chemistry, Polymer Processing Engineering, Polymer Materials Rehology"]
     }
   ],
+    "projects": [
+    {
+      "name": "Molecular Dynamics Simulation of Wall Slip Behavior of Polypropylene Melt under Shear Flow",
+      // "summary": " A simulation model of isotactic polypropylene melt in a confined flow field has been established. A program is currently under development to analyze the conformational evolution and wall slip under shear flow.",
+      
+      "highlights":["Established molecular dynamics simulations of isotactic polypropylene melt under confined shear flow using LAMMPS.",
+                    "Developed an analysis program to examine conformational evolution, wall slip behavior, and shear-induced crystallization."], 
+      "startDate": "2023-09-01",
+      "endDate": "present"
+    },
+    {
+      "name": "Simulation of Mechanical Properties of Polydisperse Polyethylene Melt",
+      "highlights":["Performed molecular dynamics simulations to investigate deformation mechanisms in polydisperse polyethylene melts.",
+                    "Demonstrated that short-chain components mitigate local stress concentrations through whole-chain motion during deformation."],
+      "startDate": "2021-03-01",
+      "endDate": "2023-06-30"
+    }
+  ],
   "awards": [
     {
       "title": "Outstanding Graduate",
@@ -62,6 +79,34 @@
       "title": "First Prize of National Mathematical Contest in Modeling, Shandong Division",
       "date": "2020-10",
       "awarder": "China Society for Industrial and Applied Mathematics"
+    }
+  ],
+    "skills": [
+    {
+      "name": "Programming languages",
+      "icon": "fa-solid fa-laptop",
+      "keywords": [
+        "C++",
+        "Python",
+        "MATLAB"
+      ]
+    },
+    {
+      "name": "Molecular dynamics softwares",
+      "icon": "fa-solid fa-flask",
+      "keywords": [
+        "LAMMPS",
+        "Moltemplate",
+        "OVITO"
+      ]
+    },
+    {
+      "name": "More",
+      "icon": "fa-solid fa-gears",
+      "keywords": [
+        "Server operation & maintanance",
+        "Adobe Photoshop, Illustrator, Premiere"
+      ]
     }
   ],
   "certificates": [
@@ -115,26 +160,6 @@
   //     "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
   //   }
   // ],
-  "skills": [
-    {
-      "name": "Programming Languages",
-      "icon": "fa-solid fa-laptop",
-      "keywords": [
-        "C++",
-        "Python",
-        "MATLAB"
-      ]
-    },
-    {
-      "name": "Molecular Dynamics Softwares",
-      "icon": "fa-solid fa-flask",
-      "keywords": [
-        "LAMMPS",
-        "Moltemplate",
-        "OVITO"
-      ]
-    }
-  ],
   "languages": [
     {
       "language": "Chinese",
@@ -146,17 +171,7 @@
       "fluency": "Fluent",
       "icon": ""
     }
-  ],
-  // "interests": [
-  //   {
-  //     "name": "Polymer",
-  //     "icon": "fa-solid fa-recycle",
-  //     "keywords": [
-  //       "Polymer Physics",
-  //       "Polymer Rehology"
-  //     ]
-  //   }
-  // ],
+  ]
   // "references": [
   //   {
   //     "name": "Professor John Doe",
@@ -168,21 +183,6 @@
   //     "icon": "fa-solid fa-thumbtack",
   //     "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
   //   }
-  // ],
-  "projects": [
-    {
-      "name": "Molecular Dynamics Simulation of Wall Slip Behavior of Polypropylene Melt under Shear Flow",
-      "summary": " A simulation model of isotactic polypropylene melt in a confined flow field has been established. A program is currently under development to analyze the conformational evolution and wall slip under shear flow.",
-      "highlights": ["Shear flow", "Isotactic polypropylene", "Molecular dynamics simulation"],
-      "startDate": "2024-03-01",
-      "endDate": "present"
-    },
-    {
-      "name": "Simulation of Mechanical Properties of Polydisperse Polyethylene Melt",
-      "summary": "The molecular dynamics simulation demonstrate that short-chain components in the polydisperse systems effectively balance regional stress concentrations through whole chain motion during the deformation of the polymer melt.",
-      "highlights": ["Molecular weight distribution", "Polyethylene melt", "Molecular dynamics simulation"],
-      "startDate": "2021-07-01",
-      "endDate": "2023-06-30"
-    }
-  ]
+  // ]
+
 }

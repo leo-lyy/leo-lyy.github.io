@@ -31,7 +31,7 @@ Hello there! 🙋‍♂️
 
 I am a third-year master’s student at [South China University of Technology](https://www.scut.edu.cn/en/), [School of Emergent Soft Matter](https://www2.scut.edu.cn/sesm/main.psp).
 
-My research interests lie in **polymer science** 🧪 and **molecular dynamics simulation** 🖥️ — a compelling combination that allows me to investigate the fundamental principles of polymer physics. 
+My research interests lie in polymer science 🧪 and molecular dynamics simulation 🖥️ — a powerful framework for deepening our understanding of the fundamental principles of polymer physics.
 
 🛠️ I was first introduced to molecular dynamics simulations during my sophomore year, and through my studies in polymer science, I developed a deep interest in computational modeling of soft matter. This curiosity led me to gain hands-on experience with the **Linux** operating system, the **LAMMPS** simulation package, and related computational tools.  
 

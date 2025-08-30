@@ -40,13 +40,16 @@
           </h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem">{{ content.institution }}</h6>
           <h6 class="ml-1 ml-md-4" style="font-size: 0.95rem; font-style: italic">{{ content.area }}</h6>
-          <ul class="items">
-            {% for item in content.courses %}
-              <li>
-                <span class="item">{{ item }}</span>
-              </li>
-            {% endfor %}
-          </ul>
+            {% if content.courses and content.courses.size > 0 %}
+              <div class="ml-1 ml-md-4" style="font-size: 0.93rem;">
+                <strong>Courses:</strong>
+                <span>
+                  {% for item in content.courses %}
+                    <span class="item">{{ item }}</span>{% unless forloop.last %}, {% endunless %}
+                  {% endfor %}
+                </span>
+              </div>
+            {% endif %}
         </div>
       </div>
     </li>

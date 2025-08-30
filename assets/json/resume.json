@@ -28,12 +28,12 @@
     "institution": "Qingdao University of Science and Technology",
     "location": "Qingdao, China",
     "url": "https://www.qust.edu.cn/",
-    "major": "Polymer Materials and Rngineering",
+    "major": "Polymer Materials and Engineering",
     "studyType": "Bachelor",
     "startDate": "2019-09-01",
     "endDate": "2023-06-30",
     "score": "10",
-    "courses": ["Polymer Physics, Polymer Chemistry, Polymer Processing Engineering, Polymer Materials Rehology"]
+    "courses": ["Polymer Physics, Polymer Chemistry, Polymer Processing Engineering, Polymer Materials Rheology"]
     }
   ],
     "projects": [
@@ -104,7 +104,7 @@
       "name": "More",
       "icon": "fa-solid fa-gears",
       "keywords": [
-        "Server operation & maintanance",
+  "Server operation & maintenance",
         "Adobe Photoshop, Illustrator, Premiere"
       ]
     }

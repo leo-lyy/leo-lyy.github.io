@@ -38,9 +38,7 @@
   ],
     "projects": [
     {
-      "name": "Molecular Dynamics Simulation of Wall Slip Behavior of Polypropylene Melt under Shear Flow",
-      // "summary": " A simulation model of isotactic polypropylene melt in a confined flow field has been established. A program is currently under development to analyze the conformational evolution and wall slip under shear flow.",
-      
+      "name": "Molecular Dynamics Simulation of Wall Slip Behavior of Polypropylene Melt under Shear Flow",      
       "highlights":["Established molecular dynamics simulations of isotactic polypropylene melt under confined shear flow using LAMMPS.",
                     "Developed an analysis program to examine conformational evolution, wall slip behavior, and shear-induced crystallization."], 
       "startDate": "2023-09-01",
@@ -58,6 +56,16 @@
     {
       "title": "Outstanding Graduate",
       "date": "2023-06",
+      "awarder": "Qingdao University of Science and Technology"
+    },
+    {
+      "title": "Haili Scholarship",
+      "date": "2023-05",
+      "awarder": "Qingdao University of Science and Technology"
+    },
+    {
+      "title": "Pirelli Scholarship",
+      "date": "2022-05",
       "awarder": "Qingdao University of Science and Technology"
     },
     {

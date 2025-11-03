@@ -37,4 +37,4 @@ My research interests lie in polymer science 🧪 and molecular dynamics simulat
 
 📊 During my undergraduate years, I actively participated in multiple mathematical modeling competitions, which strengthened my skills in **MATLAB**, scientific visualization, and machine learning.
 
-🚀 My journey into programing began in high school, when I participated in the [National Olympiad in Informatics](https://www.noi.cn/). It was then that I began learning **C++**, kindling my passion for exploring both computer software and hardware.
+🚀 My journey into programing began in high school, when I participated in the NOI. It was then that I began learning **C++**, kindling my passion for exploring both computer software and hardware.
